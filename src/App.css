@@ -31,3 +31,22 @@
     transform: rotate(360deg);
   }
 }
+
+.select {
+  color: red;
+}
+
+.star-enter {
+  transform: translateY(-100%);
+}
+.star-enter-active {
+  transform: translateY(0%);
+  transition: all 300ms ease-out;
+}
+.star-exit {
+  transform: translateY(0);
+}
+.star-exit-active {
+  transform: translateY(-100%);
+  transition: all 300ms ease-in;
+}
